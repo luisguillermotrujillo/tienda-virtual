@@ -1,8 +1,30 @@
-.bagraund li {
-    color: rgb(113, 233, 15);
-    display: inline-block;
-    margin-left: 10px;
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
+.bagraund  {
+    color: rgb(37, 42, 33);
+    display: inline-block;
+    width: 24%;
+    padding: 10px 0px 0px 15px;
+}
+header{
+    display: flex;
+    /*justify-content: center;*/
+}
+#navbar{
+    display: inline-block;
+    width: 75%;
+    /*padding-right: 60px;*/
+    box-sizing: border-box;
+    vertical-align: bottom;
+}
+#navbar li{
+    width: 50px;
+    display: inline-block;
+}
+
 p{
     color: rgb(51, 51, 177);
 }
@@ -15,7 +37,7 @@ body{
     background-color: rgb(226, 219, 219);
 }
 img{
-    width: 20%;
+    /*width: 20%;*/
     height: 20%;
     border-radius: 6px;
 }
