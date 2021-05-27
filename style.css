@@ -8,10 +8,25 @@
     display: inline-block;
     width: 24%;
     padding: 10px 0px 0px 15px;
+    /*margin: 4%;*/
+}
+div .bagraund img{
+    margin-top:40px ;
+}
+
+.imagen{
+    /*margin-top:40px ;*/
+    width: 150px;
+    height: 150px;
 }
 header{
     display: flex;
     /*justify-content: center;*/
+    background-color: cadetblue;
+    height: 200px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 #navbar{
     display: inline-block;
@@ -19,6 +34,7 @@ header{
     /*padding-right: 60px;*/
     box-sizing: border-box;
     vertical-align: bottom;
+    font-size: 15px;
 }
 #navbar li{
     width: 50px;
@@ -41,7 +57,7 @@ img{
     height: 20%;
     border-radius: 6px;
 }
-.logo img{
+/*.logo img{
     width: 10%;
     height: 10%;
-}
+}*/
